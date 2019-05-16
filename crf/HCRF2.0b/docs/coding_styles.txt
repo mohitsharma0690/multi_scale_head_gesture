@@ -1,0 +1,29 @@
+The following document describes the coding style adopted for the hCRF
+library. The first part is about the c++ coding style, the second part
+is concentrated on unit testing.
+
+1. C++ Coding style
+
+The following conventions are adopted in the c++ code:
+
+- The maximal line length is 80 characters. This help when printing
+code
+
+- The code is indented using tab. The default width of a tab is 4
+spaces (useful when one must mix tab and spaces for multi-line code)
+
+- The opening and closing braces of block are on a line on their own.
+
+- One line block should be enclosed in braces.
+
+2. Unit Testing
+
+Unit testing is gaining a lot of traction in the development
+world. It's most often cited advantages are: 
+1. Facilitate changes
+2. Documentation
+3. Design
+
+The gtest library (Google Test) is a useful library to conduct
+unit-testing in C++. New functionality in the library should have 
+unit tests written. 

@@ -1,0 +1,34 @@
+       ________________________________________________________________
+      |      A conjugate gradient method with guaranteed descent       |
+      |             C-code Version 1.1  (October 6, 2005)              |
+      |                    Version 1.2  (November 14, 2005)            |
+      |           William W. Hager    and   Hongchao Zhang             |
+      |          hager@math.ufl.edu       hzhang@math.ufl.edu          |
+      |                   Department of Mathematics                    |
+      |                     University of Florida                      |
+      |                 Gainesville, Florida 32611 USA                 |
+      |                      352-392-0281 x 244                        |
+      |                                                                |
+      |                 Copyright by William W. Hager                  |
+      |                                                                |
+      |          http://www.math.ufl.edu/~hager/papers/CG              |
+      |________________________________________________________________|
+       ________________________________________________________________
+      |This program is free software; you can redistribute it and/or   |
+      |modify it under the terms of the GNU General Public License as  |
+      |published by the Free Software Foundation; either version 2 of  |
+      |the License, or (at your option) any later version.             |
+      |This program is distributed in the hope that it will be useful, |
+      |but WITHOUT ANY WARRANTY; without even the implied warranty of  |
+      |MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the   |
+      |GNU General Public License for more details.                    |
+      |                                                                |
+      |You should have received a copy of the GNU General Public       |
+      |License along with this program; if not, write to the Free      |
+      |Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, |
+      |MA  02110-1301  USA                                             |
+      |________________________________________________________________|
+       _________________________________________________________________
+      |Note: The file cg_descent_c.parm must be placed in the directory|
+      |      where the code is run                                     |
+      |________________________________________________________________|

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mohits1/Projects/HCRF2.0b/libs/3rdParty/uncOptim/include/uncoptim.h
+math.h
+-
+
+/home/mohits1/Projects/HCRF2.0b/libs/3rdParty/uncOptim/src/uncoptim.cpp
+uncoptim.h
+/home/mohits1/Projects/HCRF2.0b/libs/3rdParty/uncOptim/src/uncoptim.h
+math.h
+-
+

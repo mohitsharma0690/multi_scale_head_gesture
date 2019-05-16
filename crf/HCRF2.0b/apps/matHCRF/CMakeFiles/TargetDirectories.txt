@@ -1,0 +1,5 @@
+/home/mohits1/Projects/HCRF2.0b/apps/matHCRF/hCRF/cgdescent/CMakeFiles/cgDescent.dir
+/home/mohits1/Projects/HCRF2.0b/apps/matHCRF/hCRF/CMakeFiles/hCRF.dir
+/home/mohits1/Projects/HCRF2.0b/apps/matHCRF/hCRF/lbfgs/CMakeFiles/lbfgs.dir
+/home/mohits1/Projects/HCRF2.0b/apps/matHCRF/CMakeFiles/matHCRF.dir
+/home/mohits1/Projects/HCRF2.0b/apps/matHCRF/hCRF/uncOptim/CMakeFiles/uncoptim.dir

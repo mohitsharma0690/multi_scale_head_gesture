@@ -1,0 +1,33 @@
+
+Uncoptim is a C++ library for UNConstrained OPTIMimization. It includes Secant methods (DFP, BFGS) and Conjugate Gradient methods, and implements several line search algorithms. The line search algorithms are introduced in
+
+    Al-Baali and Fletcher. An Efficient Line Search for Nonlinear Least Square, J. Opt. Theo. Appl., 48, pp. 359-378. (1986). 
+
+
+USAGE
+
+The line search algorithms are referred by following identifiers;
+
+    * BSSearch — Bracketing and Sectioning line Search algorithm,
+    * SSearch — Sectioning line Search algorithm,
+    * RSSearch — Revised Sectioning line Search algorithm.
+
+In theory, it is not necessary to use an accurate line search in the descent direction search algorithms (such as Newton-like methods i.e. DFP and BFGS, and so for CG methods i.e. FR and PR). But keynotes that you should be aware on them are,
+
+   1. Write down your object function and its gradient in C++ code. The golden section search doesn't need any derivatives but all DFP, BFGS, FR, and PR is gradient-based algorithm.
+   2. The constant sigma controls the accuracy of line search algorithms. Smaller value for sigma, more accurate line search algorithm. Note that the accuracy control for line search modules are independent from the accuracy of the solution. A value about 0.5 for sigma achieves convergence criterion, though the convergence rate might be decreased. More accurate line search usually yields less evaluation for gradient while sacrificing more evaluation of the object function.
+   3. Test the program with all different gradient-based algorithms and by all line search algorithms for your problem in order to measure the number of total calls of the function, the gradient, and the number of direction resets.
+
+
+INSTALLATION
+
+To install the package, download the source code from
+
+http://faculties.sbu.ac.ir/~katanforoush/uncoptim/uncoptim.tar.gz
+
+Unpack it, and then compile the sources, all together. There is a sample case to check the package. The compilation creates an executable program of the sample case. A pre-compiled version of the sample case is included in the package for Win32 platforms.
+
+
+CONTACT
+
+Ali Katanforoush, <a_katanforosh@sbu.ac.ir>, Department of Computer Science, Shahid Beheshti University, G.C., Tehran. 

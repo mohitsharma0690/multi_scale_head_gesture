@@ -1,0 +1,8 @@
+#include "toolbox.h"
+#include "dataset.h"
+#include "model.h"
+#include "matrix.h"
+#include "optimizer.h"
+#include "gradient.h"
+#include "evaluator.h"
+#include "hcrfExcep.h"

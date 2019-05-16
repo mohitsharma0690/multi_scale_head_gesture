@@ -1,0 +1,58 @@
+*******************************************
+* Log of modifications for HCRF project   *
+*******************************************
+* (c) 2007, Louis-Philippe Morency        *
+*******************************************
+
+--------
+10/18/07
+--------
+- Release 1.3a
+- Added Gaussian HCRF model
+- Added new optimization method (ASA)
+- Added new ways to initialize weights
+- Removed OpenMP support (temporary)
+
+--------
+12/20/07
+--------
+- Release 1.3b
+- Fixed problem with model loading for LDCRF
+
+
+--------
+12/22/07
+--------
+- Fixed problem with saving of test results; the loop was starting at 1 instead of 0.
+
+--------
+1/2/08
+--------
+- Release 1.3c
+- Included the file matHCRF.def
+
+--------
+2/4/08
+--------
+- Release 1.3d
+- Fixeg bug with regularization term in GradientCRF, GradientHCRF and GradientLDCRF
+
+
+--------
+1/12/10
+--------
+- Release 2.0a
+- Python interface
+- 64-bits support (Linux and Windows)
+- Multi-threading support
+- L1 regularization
+
+
+
+
+
+
+
+
+
+
